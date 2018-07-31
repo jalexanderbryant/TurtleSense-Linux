@@ -55,7 +55,6 @@ while True:
         data_byte = u.readStr(1)
 
         if(data_byte=='*'):
-            print "FUCK YEA"
             if (incoming_data_string != ""):
                 data_buffer.append( format(string_to_float(incoming_data_string), '0.3f') )
                 print data_buffer
